@@ -1,10 +1,10 @@
-from factory_method import (
+from Factory.Factory_method import (
     SrirachaFactory, HabaneroMangoFactory, GhostPepperSauceFactory,
     CayennePowderFactory, CajunBlendFactory,
     JalapenoWholePepperFactory, CarolinaReaperFactory,
     PinkHimalayaSaltFactory, BlackSaltGhostFactory,
 )
-from abstract_factory import MildPackageFactory, MediumPackageFactory, InfernoPackageFactory
+from Abstract.Abstract_factory import MildPackageFactory, MediumPackageFactory, InfernoPackageFactory
 
 
 def pause():
