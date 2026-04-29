@@ -1,8 +1,8 @@
 # test_patterns.py
 import unittest
-from adapter import PayPalAdapter, StripeAdapter, CashAdapter
-from composite import HotSauceItem, SauceCategory
-from facade import OrderFacade
+from Lab4.Adapter.adapter import PayPalAdapter, StripeAdapter, CashAdapter
+from Lab4.Composite.composite import HotSauceItem, SauceCategory
+from Lab4.Facade.facade import OrderFacade
 
 
 class TestAdapter(unittest.TestCase):
