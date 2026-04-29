@@ -1,9 +1,6 @@
 import threading
 
 
-class SpiceStoreConfig:
-    _instance = None
-    _lock = threading.Lock()
 
     def __new__(cls):
         if cls._instance is None:
