@@ -1,6 +1,6 @@
-from builder import HotLoversBoxBuilder, GourmetSpiceBoxBuilder, StarterKitBoxBuilder, SpiceDirector
-from prototype import SpiceProductPrototype, SpiceProductRegistry
-from singleton import SpiceStoreConfig
+from Lab3.Builder.builder import HotLoversBoxBuilder, GourmetSpiceBoxBuilder, StarterKitBoxBuilder, SpiceDirector
+from Lab3.Prototype.prototype import SpiceProductPrototype, SpiceProductRegistry
+from Lab3.Singleton.singleton import SpiceStoreConfig
 
 
 def pause():
