@@ -179,7 +179,4 @@ class PinkHimalayaSaltFactory(SpiceProductFactory):
         return HotSalt("Sare Roz cu Chili", 18.99, 5000, "roz himalaya", 150)
 
 
-class BlackSaltGhostFactory(SpiceProductFactory):
-    """Fabrica pentru sare neagra cu Ghost Pepper."""
-    def create_product(self) -> SpiceProduct:
-        return HotSalt("Sare Neagra cu Ghost Pepper", 26.99, 80000, "neagra", 100)
+
