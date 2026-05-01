@@ -1,8 +1,8 @@
 import unittest
 from Flyweight.flyweight import HotPepperTypeFactory, ProductOnShelf
 from Decorator.decorator import BasicNotification, EmailDecorator, SMSDecorator, PushDecorator, SpicyPackDecorator
-from  import PhoneDisplay, WebDisplay, ListCatalogView, GridCatalogView
-from proxy import RealProductService, CachingProxy, AccessControlProxy, LoggingProxy
+from Bridge.bridge import PhoneDisplay, WebDisplay, ListCatalogView, GridCatalogView
+from Proxy.proxy import RealProductService, CachingProxy, AccessControlProxy, LoggingProxy
 
 
 class TestFlyweight(unittest.TestCase):
