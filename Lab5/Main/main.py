@@ -1,7 +1,7 @@
-from flyweight import HotPepperTypeFactory, ProductOnShelf
-from decorator import BasicNotification, EmailDecorator, SMSDecorator, PushDecorator, SpicyPackDecorator
-from bridge import PhoneDisplay, TabletDisplay, WebDisplay, ListCatalogView, GridCatalogView, DetailCatalogView
-from proxy import RealProductService, CachingProxy, AccessControlProxy, LoggingProxy
+from Lab5.Flyweight.flyweight import HotPepperTypeFactory, ProductOnShelf
+from Lab5.Decorator.decorator import BasicNotification, EmailDecorator, SMSDecorator, PushDecorator, SpicyPackDecorator
+from Lab5.Bridge.bridge import PhoneDisplay, TabletDisplay, WebDisplay, ListCatalogView, GridCatalogView, DetailCatalogView
+from Lab5.Proxy.proxy import RealProductService, CachingProxy, AccessControlProxy, LoggingProxy
 
 
 def pause():
