@@ -1,10 +1,10 @@
 # test_patterns.py
 import unittest
-from strategy import SauceCatalog, SortByPrice, SortByPriceDesc, SortByName, SortByScoville, SortByScovilleDesc
-from observer import HotSauceStore, EmailSubscriber, SMSSubscriber, DashboardLogger
-from command import Inventory, AddStockCommand, RemoveStockCommand, UpdatePriceCommand, CommandHistory
-from memento import ShoppingCart, CartHistory
-from iterator import HotSauce, SauceCollection
+from Lab6.Strategy.strategy import SauceCatalog, SortByPrice, SortByPriceDesc, SortByName, SortByScoville, SortByScovilleDesc
+from Lab6.Observer.observer import HotSauceStore, EmailSubscriber, SMSSubscriber, DashboardLogger
+from Lab6.Command.command import Inventory, AddStockCommand, RemoveStockCommand, UpdatePriceCommand, CommandHistory
+from Lab6.Memento.memento import ShoppingCart, CartHistory
+from Lab6.Iterator.iterator import HotSauce, SauceCollection
 
 
 class TestStrategy(unittest.TestCase):
